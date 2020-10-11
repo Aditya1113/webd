@@ -132,6 +132,9 @@ a{text-decoration: none!important;}
   .load{
     display: none;
   }
+  .learn{
+    width:30vw!important;
+  }
 }
 hr{
   background-color: #ED1D24;
@@ -160,8 +163,8 @@ hr{
 }
 .learn{
   background-color:#ED1D24;
-  font-size: 22px;
-  width:25vw;
+  font-size: 20px;
+  width:22vw;
   line-height: 1rem;
 }
 .load{
@@ -201,10 +204,12 @@ footer section {
   flex-direction: column;
   align-items: center;
 }
-.right{
-text-align:right;
+.right li{
+  font-size: 1.7rem;
 }
-
+.left li{
+  font-size: 1.7rem;
+}
 @media (max-width:1155px)
 
 {
